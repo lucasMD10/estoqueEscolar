@@ -964,12 +964,6 @@ let PRECOS = { ...PRECOS_DEFAULT };
 
 // ── FIREBASE ──────────────────────────────────────────────────────────────────
 
-// ── AUTH ──────────────────────────────────────────────────────────────────────
-// const EMAILS_PERMITIDOS = [
-//   'seuemail@gmail.com',
-//   'emaildamae@gmail.com',
-//   'emaildopai@gmail.com'
-// ];
 
 async function signInWithGoogle() {
   try {
@@ -997,12 +991,12 @@ function updateUserBadge(user) {
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBtctOMD7v85YWbnIotPu5_unyXAoM-NRY",
-  authDomain: "controle-de-estoque-e9c68.firebaseapp.com",
-  projectId: "controle-de-estoque-e9c68",
-  storageBucket: "controle-de-estoque-e9c68.firebasestorage.app",
-  messagingSenderId: "480118515410",
-  appId: "1:480118515410:web:b48e5c78e6ce0ec85b6f0b"
+  apiKey: "YOUR_API_KEY_HERE",
+  authDomain: "YOUR_PROJECT.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT.appspot.com",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId: "YOUR_APP_ID"
 };
 
 const fireApp = initializeApp(firebaseConfig);
